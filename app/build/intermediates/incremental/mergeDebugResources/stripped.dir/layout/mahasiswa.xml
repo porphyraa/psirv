@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/ivfoto"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/foto_066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvnama"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:text="Nama"
+        app:layout_constraintStart_toEndOf="@+id/ivfoto"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvvaluenama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Nama"
+        app:layout_constraintStart_toEndOf="@+id/tvnama"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvnim"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:textStyle="bold"
+        android:text="NIM"
+        app:layout_constraintStart_toEndOf="@+id/ivfoto"
+        app:layout_constraintTop_toBottomOf="@+id/tvnama" />
+
+    <TextView
+        android:id="@+id/tvvaluenim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NIM"
+        app:layout_constraintStart_toEndOf="@+id/tvnama"
+        app:layout_constraintTop_toBottomOf="@+id/tvvaluenama" />
+
+    <TextView
+        android:id="@+id/tvkelas"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:textStyle="bold"
+        android:text="Kelas"
+        app:layout_constraintStart_toEndOf="@+id/ivfoto"
+        app:layout_constraintTop_toBottomOf="@+id/tvnim" />
+
+    <TextView
+        android:id="@+id/tvvaluekelas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kelas"
+        app:layout_constraintStart_toEndOf="@+id/tvkelas"
+        app:layout_constraintTop_toBottomOf="@+id/tvvaluenim" />
+
+    <TextView
+        android:id="@+id/tvhobi"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:textStyle="bold"
+        android:text="Hobi"
+        app:layout_constraintStart_toEndOf="@+id/ivfoto"
+        app:layout_constraintTop_toBottomOf="@+id/tvkelas" />
+
+    <TextView
+        android:id="@+id/tvvaluehobi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hobi"
+        app:layout_constraintStart_toEndOf="@+id/tvhobi"
+        app:layout_constraintTop_toBottomOf="@+id/tvvaluekelas" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivfoto" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
