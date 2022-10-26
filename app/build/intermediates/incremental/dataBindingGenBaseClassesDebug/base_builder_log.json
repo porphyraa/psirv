@@ -1,0 +1,19 @@
+{
+  "dependencies": {},
+  "class_names_log": {
+    "mappings": {
+      "activity_main": {
+        "qualified_name": "com.example.test.databinding.ActivityMainBinding",
+        "module_package": "com.example.test.databinding",
+        "variables": {},
+        "implementations": []
+      },
+      "mahasiswa": {
+        "qualified_name": "com.example.test.databinding.MahasiswaBinding",
+        "module_package": "com.example.test.databinding",
+        "variables": {},
+        "implementations": []
+      }
+    }
+  }
+}
