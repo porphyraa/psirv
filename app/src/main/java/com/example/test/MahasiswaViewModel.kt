@@ -9,9 +9,9 @@ class MahasiswaViewModel : ViewModel() {
 
     init {
         listMahasiswa.value = mutableListOf<MahasiswaModel>()
-        listMahasiswa.value!!.add(MahasiswaModel(R.drawable.foto_066,"???", "???", "E","ntahlah"))
-        listMahasiswa.value!!.add(MahasiswaModel(R.drawable.foto_059,"Neo Hernando", "205150201111059", "E","Menggendong kawan :')"))
-        listMahasiswa.value!!.add(MahasiswaModel(R.drawable.foto_xxx,"???", "???", "E","ntahlah (2)"))
+        listMahasiswa.value!!.add(MahasiswaModel(R.drawable.foto_066,"nama", "nim", "E","ntahlah"))
+        listMahasiswa.value!!.add(MahasiswaModel(R.drawable.foto_059,"Neo Hernando", "205150201111059", "E","Apa saja penting senang"))
+        listMahasiswa.value!!.add(MahasiswaModel(R.drawable.foto_xxx,"nama", "nim", "E","ntahlah (2)"))
         mahasiswaListState.value = 0L
     }
 
