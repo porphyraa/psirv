@@ -1,8 +1,8 @@
 # psirv
-PSI Recycle View
+PSI RECYCLE VIEW
 
-Abel Rizky Marunduri  
+Abel Rizky Marunduri  -
 
 Neo Hernando          - 205150201111059 - porphyraa
 
-Muhammad Kholif Alami 
+Muhammad Kholif Alami -
